@@ -1,9 +1,15 @@
 {
-    "redirects": [
-      {
-        "source": "/",
-        "destination": "/home.html",
-        "permanent": true
-      }
-    ]
-  }  
+  "redirects": [
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "home.marshina.online"
+        }
+      ],
+      "destination": "/home.html",
+      "permanent": true
+    }
+  ]
+}
